@@ -1,0 +1,18 @@
+body {
+    background-color: grey;
+    padding-left: 33%;
+}
+.textFild{
+    float: left;
+}
+.textBlock {
+    padding: 0;
+    width: 500px;
+    text-align: justify;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-top: 50px
+    }
+}
