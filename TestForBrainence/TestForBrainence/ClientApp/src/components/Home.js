@@ -5,7 +5,7 @@ export class Home extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { text: "", sentences: [], text1: "" };
+        this.state = { text: "", sentences: [] };
 
         this.selectFile = this.selectFile.bind(this);
         this.inputWord = this.inputWord.bind(this);
@@ -28,6 +28,12 @@ export class Home extends Component {
             var text = this.state.text.split(/[!.?]/);
             for (var i = 0; i < text.length; i++) {
                 if (text[i].search(e) !== -1) {
+                    var entry = 0;
+                    var pos = -1;
+                    while ((pos = text[i].indexOf(e, pos + 1)) != -1) {
+                        entry++;
+                    }
+                    this.sendText(text[i], entry);
                     this.state.sentences.push(text[i]);
                 }
             }
@@ -36,6 +42,16 @@ export class Home extends Component {
         else {
             alert("You have empty field");
         }
+    }
+
+    sendText(e, v) {
+        const formData = new FormData();
+        formData.append("text", e);
+        formData.append("entry", v);
+        fetch('api/HomeController/GetText', {
+            method: 'POST',
+            body: formData,
+        })
     }
 
     render() {

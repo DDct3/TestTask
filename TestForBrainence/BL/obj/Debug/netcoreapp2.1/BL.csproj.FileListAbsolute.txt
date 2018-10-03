@@ -1,0 +1,12 @@
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\bin\Debug\netcoreapp2.1\BL.deps.json
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\bin\Debug\netcoreapp2.1\BL.dll
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\bin\Debug\netcoreapp2.1\BL.pdb
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\obj\Debug\netcoreapp2.1\BL.csprojAssemblyReference.cache
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\obj\Debug\netcoreapp2.1\BL.csproj.CoreCompileInputs.cache
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\obj\Debug\netcoreapp2.1\BL.AssemblyInfoInputs.cache
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\obj\Debug\netcoreapp2.1\BL.AssemblyInfo.cs
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\obj\Debug\netcoreapp2.1\BL.dll
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\obj\Debug\netcoreapp2.1\BL.pdb
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\bin\Debug\netcoreapp2.1\DAL.dll
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\bin\Debug\netcoreapp2.1\DAL.pdb
+C:\Users\DDct3\Desktop\Нова папка\TestTask\TestForBrainence\BL\obj\Debug\netcoreapp2.1\BL.csproj.CopyComplete
