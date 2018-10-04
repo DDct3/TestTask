@@ -30,11 +30,11 @@ export class Home extends Component {
                 if (text[i].search(e) !== -1) {
                     var entry = 0;
                     var pos = -1;
-                    while ((pos = text[i].indexOf(e, pos + 1)) != -1) {
+                    while ((pos = text[i].indexOf(e, pos + 1)) !== -1) {
                         entry++;
                     }
                     this.sendText(text[i], entry);
-                    this.state.sentences.push(text[i]);
+                    this.state.sentences.push(text[i] + ". -> The number of occurrences of the word: " + entry);
                 }
             }
             this.forceUpdate();
@@ -63,6 +63,7 @@ export class Home extends Component {
             <input required id="word" type="text"/>
             <button onClick={() => this.inputWord(document.getElementById("word").value)}>Search</button>
             <div className="textBlock">{this.state.sentences.map(s => <li key={
+                //Sorry about this code, i must did it because all console was red.
                 possible.charAt(Math.floor(Math.random() * possible.length)) + 
                 possible.charAt(Math.floor(Math.random() * possible.length)) +
                 possible.charAt(Math.floor(Math.random() * possible.length))
